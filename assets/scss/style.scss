@@ -1,0 +1,79 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+*{
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-family: "Open Sans Condensend",sans-serif;
+}
+
+$link-white:rgba(255,255,255,0.800);
+$link-gold:#D1A954;
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+input{
+    outline: none;
+}
+
+.header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url(../img/Rectangle3.png);
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 25px;
+
+        a{
+            font-weight: 500;
+        }        
+    }
+
+    .navbar{
+        width: 74%;
+        display: flex;
+        justify-content: space-between;
+
+        .contact{
+            &:hover .line{
+                width: 100%;
+            }
+
+        .line{
+            width: 0px;
+            height: 3px;
+            background-color: $link-gold;
+            transition: 0.3s all linear;
+            margin: 0 auto;
+            
+            
+            
+        
+        }
+    }
+    }
+}
